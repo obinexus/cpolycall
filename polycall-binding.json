@@ -1,0 +1,11 @@
+{
+  "name": "cpolycall",
+  "version": "1.5.0",
+  "language": "C",
+  "adapter": true,
+  "ffi": true,
+  "config": "cpolycallrc",
+  "core": "../../src",
+  "license": "MIT OBINexus",
+  "author": "Nnamdi Michael Okpala"
+}
