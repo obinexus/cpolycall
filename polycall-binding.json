@@ -5,7 +5,12 @@
   "adapter": true,
   "ffi": true,
   "config": "cpolycallrc",
-  "core": "../../src",
+  "core": "../libpolycall",
+  "entrypoint": "include/cpolycall.h",
+  "implementation": "src/cpolycall.c",
+  "build": "make",
+  "cmake": "CMakeLists.txt",
+  "test": "make test",
   "license": "MIT OBINexus",
-  "author": "Nnamdi Michael Okpala"
+  "author": "Nnamdi Michael Okpala <okpalan@protonmail.com>"
 }
